@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#97EAFF"
+    tools:context=".Account">
+
+    <Button
+        android:id="@+id/bt_toSignOut"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/black"
+        android:onClick="Logout"
+        android:text="@string/logout"
+        android:textColor="@color/white"
+        app:cornerRadius="20dp" />
+
+    <Button
+        android:id="@+id/bt_toDeleteAccount"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="280dp"
+        android:layout_marginTop="-50dp"
+        android:backgroundTint="@color/black"
+        android:onClick="DeleteAccount"
+        android:text="Delete Account"
+        android:textColor="@color/white"
+        android:backgroundTintMode="@color/black"
+        app:cornerRadius="20dp" />
+
+    <TextView
+        android:id="@+id/tv_myAccountTitle"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#959595"
+        android:textColor="@color/white"
+        android:textSize="55dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/my_account"/>
+
+    <TextView
+        android:id="@+id/tv_showAccountEmail"
+        android:layout_width="350dp"
+        android:layout_marginLeft="25dp"
+        android:layout_height="wrap_content"
+        android:background="@color/black"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+         />
+
+    <ScrollView
+        android:layout_width="400dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp">
+
+        <TextView
+            android:id="@+id/tv_screen"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:background="@color/white"
+            android:hint="Your Tasks"
+            android:minLines="5"
+            android:paddingLeft="10dp"
+            android:textColor="@color/black"
+            android:textColorHint="#555555"
+            android:textSize="20dp" />
+    </ScrollView>
+
+    <EditText
+        android:id="@+id/etNewTask"
+        android:layout_width="400dp"
+        android:layout_gravity="center"
+        android:paddingLeft="10dp"
+        android:layout_height="50sp"
+        android:layout_marginTop="30dp"
+        android:background="#ffffff"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="New Task"
+        android:textColorHint="#555555"
+        android:textColor="@color/black"
+        />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="#0037FF"
+        android:text="Save"
+        android:onClick="writeTask"
+        />
+
+
+</LinearLayout>

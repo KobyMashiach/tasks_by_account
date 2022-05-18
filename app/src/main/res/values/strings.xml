@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Hody Duby!</string>
+    <string name="email">Enter Email</string>
+    <string name="password">Enter Password</string>
+    <string name="sign_in">Sign In</string>
+    <string name="btn1_title">Move to Login activity</string>
+    <string name="btn2_title">Move to Main activity</string>
+    <string name="my_account">My Account</string>
+    <string name="logout">Log Out</string>
+
+
+</resources>

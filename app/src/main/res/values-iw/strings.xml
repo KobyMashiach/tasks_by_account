@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">הודי דובי</string>
+    <string name="email">Enter Email</string>
+    <string name="password">Enter Password</string>
+    <string name="sign_in">התחבר</string>
+    <string name="btn1_title">עבור ללוגין activity</string>
+    <string name="btn2_title">Move to Main activity</string>
+    <string name="my_account">החשבון שלי</string>
+    <string name="logout">התנתק</string>
+
+
+
+</resources>
